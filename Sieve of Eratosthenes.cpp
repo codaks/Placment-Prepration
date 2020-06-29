@@ -5,7 +5,7 @@ int main(){
     int n;
     cin>>n;
     int visted[n+1] = {0};
-    visted[1] = 1;
+    visted[1] = visted[0] = 0 ;
     visted[2] = 1;
     for(int i = 3;i<=n;i+=2){
         visted[i] = 1;
